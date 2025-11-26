@@ -1,0 +1,130 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+/* ================================
+   Root variables
+================================ */
+:root {
+  /* Background & text */
+  --background: #000000;
+  --foreground: #ffffff;
+
+  /* Brand colors */
+  --color-text-main: #FFE7AC;
+  --color-border-gold: #FDC034;
+
+  /* Title gradient (same as button) */
+  --gradient-gold: linear-gradient(90deg,
+      #A86307 0%,
+      #EDB838 50%,
+      #A86307 100%);
+
+  --gradient-gold-bg: linear-gradient(90deg,
+      #D4AF37 0%,
+      #D4AF37 20%,
+      #00F0FF 69%);
+
+  /* Container */
+  --container-max-width: 1500px;
+  --container-padding: 1.5rem;
+}
+
+/* ================================
+   Base styles
+================================ */
+html,
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-futura), sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================================
+   Container utility
+================================ */
+.container-xl {
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+/* ================================
+   Typography system
+================================ */
+
+/* Main titles (gradient) */
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Sizes */
+h1 {
+  font-size: 90px;
+  line-height: 110px;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+/* Supporting headings */
+h4 {
+  font-size: 1.5rem;
+  /* 24px */
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+h5 {
+  font-size: 1.25rem;
+  /* 20px */
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+h6 {
+  font-size: 1rem;
+  /* 16px */
+  font-weight: 500;
+  color: var(--foreground);
+}
+
+/* Paragraph */
+
+p,
+small {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text-main);
+}
+
+.hero-para {
+  font-size: 22px;
+  line-height: 1.6;
+  color: var(--color-text-main);
+}
+
+/* ======== gradient ======== */
+
+.gradient-gold-bg {
+  background: var(--gradient-gold-bg);
+}
+
+.gradient-gold {
+  background: var(--gradient-gold);
+}
