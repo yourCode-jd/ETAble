@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import GradientButton from '../ui/GradientButton'
+import Link from 'next/link'
 
 export default function Access({ bgImage = '/images/early-access-bg.png' }) {
     return (
@@ -18,7 +20,7 @@ export default function Access({ bgImage = '/images/early-access-bg.png' }) {
 
                     {/* Right: form */}
                     <div className="md:px-8">
-                        <form className="">
+                        {/* <form className="">
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                                 <div>
@@ -61,7 +63,11 @@ export default function Access({ bgImage = '/images/early-access-bg.png' }) {
                             <button type="submit" className="w-full mt-2 inline-flex items-center justify-center rounded-md px-6 py-3 text-black font-medium gradient-gold cursor-pointer hover:opacity-95 transition-shadow shadow-[0_8px_30px_rgba(255,183,77,0.18)]">
                                 Join Wishlist
                             </button>
-                        </form>
+                        </form> */}
+                        {/* CTA Button */}
+                        <Link href="/WaitListForm" target="_blank">
+                            <GradientButton className="md:min-h-11 w-[70%]">Join The Waitlist</GradientButton>
+                        </Link>
                     </div>
 
                 </div>
@@ -70,6 +76,7 @@ export default function Access({ bgImage = '/images/early-access-bg.png' }) {
             <div className="absolute inset-x-0  md:h-full pointer-events-none z-0 top-0 lg:-top-full">
                 <Image width={1720} height={1124} src="/images/smokeBg.png" alt="footer fade" objectFit="cover" className="relative -top-40 ml-auto" />
             </div>
+
         </section>
     )
 }

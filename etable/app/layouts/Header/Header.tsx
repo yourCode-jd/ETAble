@@ -1,5 +1,6 @@
 import Image from "next/image";
 import GradientButton from "../../components/ui/GradientButton";
+import Link from "next/link";
 
 export default function Header() {
     return (
@@ -18,8 +19,9 @@ export default function Header() {
                 </div>
 
                 {/* CTA Button */}
-                <GradientButton>Join The Waitlist</GradientButton>
-
+                <Link href="/WaitListForm" target="_blank">
+                    <GradientButton className="md:min-h-11">Join The Waitlist</GradientButton>
+                </Link>
             </div>
         </header>
     );

@@ -4,7 +4,6 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./layouts/Header/Header";
 import Footer from "./layouts/Footer/Footer";
-
 const futura = localFont({
   src: [
     {
