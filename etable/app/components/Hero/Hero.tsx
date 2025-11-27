@@ -7,7 +7,7 @@ function Hero() {
         <section className='container-xl'>
             {/* outer */}
 
-            <div className='grid lg:grid-cols-2 grid-cols-1 items-center py-14 md:pb-14 pb-8 bg-light rounded-3 lg:gap-0 gap-8'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 items-center md:py-14 py-8 md:pb-14 pb-8 bg-light rounded-3 lg:gap-0 gap-8'>
                 {/* left */}
                 <div className='text-left'>
                     <h1 className='hero-title md:mb-7 mb-3'>The Future <br></br> of Dining</h1>
