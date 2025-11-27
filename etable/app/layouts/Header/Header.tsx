@@ -13,6 +13,7 @@ export default function Header() {
                         alt="ETableAI Logo"
                         width={240}
                         height={70}
+                        className="w-36 md:w-full h-auto"
                     />
                 </div>
 
