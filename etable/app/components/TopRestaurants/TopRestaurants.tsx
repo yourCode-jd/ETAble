@@ -7,7 +7,7 @@ export default function TopRestaurants({ imageSrc = '/images/dashboard.png', ima
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-24 gap-12 items-center">
 
                     {/* Left content */}
-                    <div className="order-2 md:order-1">
+                    <div className="order-2 md:order-0">
                         <h2 className="mb-10 leading-tight">
                             Why Top Restaurants
                             <br />
