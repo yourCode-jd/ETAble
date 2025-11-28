@@ -19,7 +19,7 @@ export default function Access({ bgImage = '/images/early-access-bg.png' }) {
                     </div>
 
                     {/* Right: form */}
-                    <div className="md:px-8">
+                    <div className="lg:px-8">
                         {/* <form className="">
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
@@ -66,7 +66,7 @@ export default function Access({ bgImage = '/images/early-access-bg.png' }) {
                         </form> */}
                         {/* CTA Button */}
                         <Link href="/WaitListForm" target="_blank">
-                            <GradientButton className="md:min-h-11 w-[70%]">Join The Waitlist</GradientButton>
+                            <GradientButton className="md:min-h-11 lg:w-[70%] w-96 max-w-full">Join The Waitlist</GradientButton>
                         </Link>
                     </div>
 

@@ -16,15 +16,16 @@ export default function WaitlistIndex() {
     return (
         <main className="min-h-screen bg-black text-[#d4af37] py-16 px-6">
             <div className="max-w-xl mx-auto text-center">
-                <Image
+                <p className="text-sm tracking-wider text-[#d4af37]/90 md:mb-6 mb-4">WELCOME TO</p>
+                <Link href="/">  <Image
                     src="/images/logo.svg" // replace with your logo path
                     alt="ETableAI Logo"
                     width={240}
                     height={70}
-                    className="md:w-72 w-42 mx-auto max-w-full h-auto md:mb-10 mb-4"
+                    className="md:w-72 w-42 mx-auto max-w-full h-auto mb-4"
                 />
-                <p className="text-sm tracking-wider text-[#d4af37]/90">WELCOME TO</p>
-                <h1 className="text-lg! sm:text-4xl! md:text-5xl! font-bold tracking-tight text-[#d4af37] font-sans">
+                </Link>
+                <h1 className="text-lg! sm:text-4xl! md:text-5xl! leading-tight text-[#d4af37] ">
                     How are you joining?
                 </h1>
                 <p className="mt-3 text-[#d4af37]/80">

@@ -35,9 +35,9 @@ function Upgrades() {
                             <h3 className='mb-2'>Faster Table Turnover</h3>
                             <p className='max-w-xs mx-auto'>Optimize seating flow with perfectly timed arrivals and departures — freeing tables faster, serving more guests, and maximizing revenue without rushing the experience.</p>
                         </div>
-                        <div className='text-center'>
+                        <div className='text-center sm:col-span-2 lg:col-span-1'>
                             <div className='border border-[#FFC900]/30 rounded-full w-[70px] h-[70px] md:w-[90px] md:h-[90px] flex items-center justify-center mx-auto md:mb-6 mb-3'>
-                                <img src='/icons/icon01.svg' alt='icon-1' width={34} height={34} className='mx-auto ' />
+                                <img src='/icons/icon09.svg' alt='icon-1' width={34} height={34} className='mx-auto ' />
                             </div>
                             <h3 className='mb-2'>Better Guest Experience</h3>
                             <p className='max-w-xs mx-auto'>A smooth, stress-free dining journey where guests arrive to ready tables and freshly prepared meals — no long waits, no uncertainty, just seamless luxury service.</p>
